@@ -372,6 +372,8 @@ INV_AlleFahrzeugeArray = [
 
 ["Car_Sedan",["Fahrzeug", "car"],["Car_Sedan", "Sedan (white)"],[6000, 3000], [1, "car", "basic_police"], [150, [1,0,0,3]], "Car_Sedan" call ISSE_Cfg_Vehicle_GetName, "Car_Sedan" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 5],["ebauteile", 1],["mineraloel", 1]] ],
 
+["a2l_impala_black",["Fahrzeug", "car"],["a2l_impala_black", "Impala (black)"],[16000, 3000], [1, "car", "basic_police"], [150, [1,0,0,3]], "a2l_impala_black" call ISSE_Cfg_Vehicle_GetName, "a2l_impala_black" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 5],["ebauteile", 1],["mineraloel", 1]] ],
+
 ["Tractor",["Fahrzeug", "car"],["Tractor", "Tractor"],[4000, 1500], [1, "car", "basic_police"], [100, [1,0,0,0]], "Tractor" call ISSE_Cfg_Vehicle_GetName, "Tractor" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 5],["ebauteile", 1],["mineraloel", 1]] ],
 
 ["ATV_US_EP1",["Fahrzeug", "car"],["ATV_US_EP1", "ATV"],[3000, 2500], [1, "car", "basic_police"], [100, [1,0,0,1]], "ATV_US_EP1" call ISSE_Cfg_Vehicle_GetName, "ATV_US_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["mineraloel", 1]] ],
@@ -389,6 +391,10 @@ INV_AlleFahrzeugeArray = [
 ["hilux1_civil_2_covered",["Fahrzeug", "pickup"],["hilux1_civil_2_covered", "Pickup(Covered, Red)"],[13500, 5000], [2, "pickup", "patrol_training"], [350,[1,0,0,1]], "hilux1_civil_2_covered" call ISSE_Cfg_Vehicle_GetName, "hilux1_civil_2_covered" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 20],["ebauteile", 5],["mineraloel", 1]] ], 
 
 ["hilux1_civil_3_open", ["Fahrzeug", "pickup"],["hilux1_civil_3_open", "Pickup(Open, Silver)"], [13500, 5000], [2, "pickup", "patrol_training"], [350, [1,0,0,1] ], "hilux1_civil_3_open" call ISSE_Cfg_Vehicle_GetName, "hilux1_civil_3_open" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 20],["ebauteile", 5],["mineraloel", 1]]],
+
+["a2l_suburban_black", ["Fahrzeug", "pickup"],["a2l_suburban_black", "Suburban (black)"], [95500, 15000], [2, "pickup", "patrol_training"], [350, [1,0,0,1] ], "a2l_suburban_black" call ISSE_Cfg_Vehicle_GetName, "a2l_suburban_black" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 20],["ebauteile", 5],["mineraloel", 1]]],
+
+["A2l_Tahoe_Black", ["Fahrzeug", "pickup"],["A2l_Tahoe_Black", "Tahoe (black)"], [45500, 15000], [2, "pickup", "patrol_training"], [350, [1,0,0,1] ], "A2l_Tahoe_Black" call ISSE_Cfg_Vehicle_GetName, "A2l_Tahoe_Black" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 20],["ebauteile", 5],["mineraloel", 1]]],
 
 ["datsun1_civil_1_open",["Fahrzeug", "pickup"],["datsun1_civil_1_open", "Datsun(Open, Blue)"],[10500, 4000], [2, "pickup", "patrol_training"], [350,[1,0,0,1]], "datsun1_civil_1_open" call ISSE_Cfg_Vehicle_GetName, "datsun1_civil_1_open" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 20],["ebauteile", 5],["mineraloel", 1]] ], 
 
@@ -425,6 +431,24 @@ INV_AlleFahrzeugeArray = [
 ["LadaLM",["Fahrzeug", "car"],["LadaLM", "Police VAZ"],[7000, 5000], [1, "car", "basic_police"], [150, [1,0,0,3]], "LadaLM" call ISSE_Cfg_Vehicle_GetName, "LadaLM" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 10],["ebauteile", 1],["mineraloel", 3]] ],
 
 ["rpp_hilux", ["Fahrzeug", "pickup"],["rpp_hilux", "Police Coyota"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "rpp_hilux" call ISSE_Cfg_Vehicle_GetName, "rpp_hilux" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_impala_pd", ["Fahrzeug", "car"],["a2l_impala_pd", "Police Impala"],[10000, 7000], [2, "car", "patrol_training"], [350,[1,0,0,1] ], "a2l_impala_pd" call ISSE_Cfg_Vehicle_GetName, "a2l_impala_pd" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_impala_blackuc", ["Fahrzeug", "car"],["a2l_impala_blackuc", "Police Impala Unmarked"],[13500, 9000], [2, "car", "patrol_training"], [350,[1,0,0,1] ], "a2l_impala_blackuc" call ISSE_Cfg_Vehicle_GetName, "a2l_impala_blackuc" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_police", ["Fahrzeug", "pickup"],["a2l_police", "Police Tahoe"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "a2l_police" call ISSE_Cfg_Vehicle_GetName, "a2l_police" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["A2L_Tahoe_Border", ["Fahrzeug", "pickup"],["A2L_Tahoe_Border", "Police Supervisor Tahoe"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "A2L_Tahoe_Border" call ISSE_Cfg_Vehicle_GetName, "A2L_Tahoe_Border" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_policek9", ["Fahrzeug", "pickup"],["a2l_policek9", "Police Tahoe Tac"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "a2l_policek9" call ISSE_Cfg_Vehicle_GetName, "a2l_policek9" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["A2l_Tahoe_BlackUC", ["Fahrzeug", "pickup"],["A2l_Tahoe_BlackUC", "Unmarked Tahoe"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "A2l_Tahoe_BlackUC" call ISSE_Cfg_Vehicle_GetName, "A2l_Tahoe_BlackUC" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_suburban_uc_black", ["Fahrzeug", "pickup"],["a2l_suburban_uc_black", "Police Suburban Unmarked Black"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "a2l_suburban_uc_black" call ISSE_Cfg_Vehicle_GetName, "a2l_suburban_uc_black" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_suburban_uc_grey", ["Fahrzeug", "pickup"],["a2l_suburban_uc_grey", "Police Suburban Unmarked Grey"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "a2l_suburban_uc_grey" call ISSE_Cfg_Vehicle_GetName, "a2l_suburban_uc_grey" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
+
+["a2l_suburban_pd_patrol", ["Fahrzeug", "pickup"],["a2l_suburban_pd_patrol", "Police Suburban"],[13500, 9000], [2, "pickup", "patrol_training"], [350,[1,0,0,1] ], "a2l_suburban_pd_patrol" call ISSE_Cfg_Vehicle_GetName, "a2l_suburban_pd_patrol" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
 
 ["rpp_hatch", ["Fahrzeug", "car"],["rpp_hatch", "Police Hatchback"],[12500, 9000], [2, "car", "patrol_training"], [350,[1,0,0,6] ], "rpp_hatch" call ISSE_Cfg_Vehicle_GetName, "rpp_hatch" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
 
@@ -760,7 +784,19 @@ INV_VehicleWeightArray =
  ["V3S_Civ", 625],
  ["Lada1", 100],
  ["ATV_US_EP1", 10],
- ["rpp_hilux", 250], 
+ ["rpp_hilux", 250],
+ ["a2l_impala_pd", 100], 
+ ["a2l_impala_black", 100],
+ ["a2l_impala_blackuc", 100],
+ ["A2l_Tahoe_BlackUC", 250],
+ ["A2L_Tahoe_Border", 250],
+ ["a2l_police", 250],
+ ["a2l_policek9", 250],
+ ["A2l_Tahoe_Black", 250],
+ ["a2l_suburban_pd_patrol", 250],
+ ["a2l_suburban_uc_black", 250],
+ ["a2l_suburban_black", 250],
+ ["a2l_suburban_uc_grey", 250],
  ["rpp_hatch", 100], 
  ["rpp_sedan", 100],
  ["rpp_skoda", 90],
